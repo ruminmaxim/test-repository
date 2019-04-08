@@ -1,0 +1,50 @@
+.borderMethod1{
+    width: 100px;
+    height: 100px;
+    background-color: #3fcaff;
+    margin: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
+.borderMethod2{
+    width: 100px;
+    height: 100px;
+    background-color: #ffbe6d;
+    margin: 20px;
+    box-shadow: black 0 0 0 2px;
+}
+
+
+.borderMethod3{
+    width: 100px;
+    height: 100px;
+    background-color: #98ff85;
+    margin: 20px;
+    border-image: url(https://pp.userapi.com/c855032/v855032739/13885/XlcnpiE0xbg.jpg) ;
+    border-width:   2px;
+}
+
+.borderMethod4{
+    width: 100px;
+    height: 100px;
+    background-color: #c53cff;
+    margin: 20px;
+}
+
+.borderMethod4:before .borderMethod4:after {
+    width: 100px;
+    height: 100px;
+    background-color: #c53cff;
+    margin: 20px;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.borderMethod5{
+    width: 100px;
+    height: 100px;
+    background-color: #50ffef;
+    margin: 20px;
+}
+
